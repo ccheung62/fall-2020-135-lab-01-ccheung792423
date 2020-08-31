@@ -1,7 +1,7 @@
 /*
 Author: Cheuk Lam Cheung
 Course: CSCI-135
-Instructor:
+Instructor: Mike Zamansky
 Assignment: Number of days in a given month, Lab 1D
 
 The program prints the number of days in the inputted month and year
@@ -33,10 +33,10 @@ int main () {
   std::cin >> month;
   if (month == 2) { // check if it's a leap year
     if (leap(year)==2) {
-      std::cout << "29 days\n";
+      std::cout << "\n29 days" << std::endl;
     }
     else {
-      std::cout << "28 days\n";
+      std::cout << "\n28 days" << std::endl;
     }
   }
   else {
@@ -44,10 +44,10 @@ int main () {
       month--;
     }
     if (month%2 == 0) {
-      std::cout << "30 days\n";
+      std::cout << "\n30 days" << std::endl;
     }
     else {
-      std::cout << "31 days\n";
+      std::cout << "\n31 days" << std::endl;
     }
   }
   return 0;

@@ -1,7 +1,7 @@
 /* 
 Author: Cheuk Lam Cheung
 Course: CSCI-135
-Instructor:
+Instructor: Mike Zamansky
 Assignment: Find the smaller of two integers, Lab1A
 
 The program prints out the smaller of the two inputted intergers
@@ -18,10 +18,10 @@ int main() {
   std:: cout << "Enter the second number: ";
   std:: cin >> sec;
   if (first < sec) { //compare and prints out the smallest integer
-    std:: cout << "The smaller of the two is " << first << "\n";
+    std:: cout << "\nThe smaller of the two is " << first << std::endl;
   }
   else {
-    std:: cout << "The smaller of the two is " << sec << "\n";
+    std:: cout << "\nThe smaller of the two is " << sec << std::endl;
   }
   return 0;
 }

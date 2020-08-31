@@ -1,7 +1,7 @@
 /* 
 Author: Cheuk Lam Cheung
 Course: CSCI-135
-Instructor: 
+Instructor: Mike Zamansky
 Assignment: Find the smaller of three integers, Lab 1B
 
 The program prints out the smallest integer of the three inputted integers
@@ -20,13 +20,13 @@ int main () {
   int third;
   std::cin >> third;
   if (first < sec && first <third) { //compares and prints the smallest integer
-    std::cout << "The smaller of the three is " << first << "\n";
+    std::cout << "\nThe smaller of the three is " << first << std::endl;
   }
   else if (sec < third) {
-    std::cout << "The smaller of the three is " << sec << "\n";
+    std::cout << "\nThe smaller of the three is " << sec << std::endl;
   }
   else {
-    std::cout << "The smaller of the three is " << third << "\n";
+    std::cout << "\nThe smaller of the three is " << third << std::endl;
   }
   return 0;
 }
